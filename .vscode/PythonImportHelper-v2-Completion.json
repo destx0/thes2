@@ -1,0 +1,408 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "networkx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "networkx",
+        "description": "networkx",
+        "detail": "networkx",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "kdtree",
+        "description": "kdtree",
+        "isExtraImport": true,
+        "detail": "kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "kdtree",
+        "description": "kdtree",
+        "isExtraImport": true,
+        "detail": "kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "graphviz_layout",
+        "importPath": "networkx.drawing.nx_agraph",
+        "description": "networkx.drawing.nx_agraph",
+        "isExtraImport": true,
+        "detail": "networkx.drawing.nx_agraph",
+        "documentation": {}
+    },
+    {
+        "label": "graphviz_layout",
+        "importPath": "networkx.drawing.nx_agraph",
+        "description": "networkx.drawing.nx_agraph",
+        "isExtraImport": true,
+        "detail": "networkx.drawing.nx_agraph",
+        "documentation": {}
+    },
+    {
+        "label": "graphviz_layout",
+        "importPath": "networkx.drawing.nx_agraph",
+        "description": "networkx.drawing.nx_agraph",
+        "isExtraImport": true,
+        "detail": "networkx.drawing.nx_agraph",
+        "documentation": {}
+    },
+    {
+        "label": "heapq",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "make_blobs",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "make_blobs",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "make_blobs",
+        "importPath": "sklearn.datasets",
+        "description": "sklearn.datasets",
+        "isExtraImport": true,
+        "detail": "sklearn.datasets",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "gggg.cis",
+        "description": "gggg.cis",
+        "peekOfCode": "n = 10**10\ni = 2\ncnt = 0\nwhile i < n:\n    i = i**2\n    cnt += 1\nprint(cnt)",
+        "detail": "gggg.cis",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "gggg.cis",
+        "description": "gggg.cis",
+        "peekOfCode": "i = 2\ncnt = 0\nwhile i < n:\n    i = i**2\n    cnt += 1\nprint(cnt)",
+        "detail": "gggg.cis",
+        "documentation": {}
+    },
+    {
+        "label": "cnt",
+        "kind": 5,
+        "importPath": "gggg.cis",
+        "description": "gggg.cis",
+        "peekOfCode": "cnt = 0\nwhile i < n:\n    i = i**2\n    cnt += 1\nprint(cnt)",
+        "detail": "gggg.cis",
+        "documentation": {}
+    },
+    {
+        "label": "euclidean_distance",
+        "kind": 2,
+        "importPath": "gggg.helper",
+        "description": "gggg.helper",
+        "peekOfCode": "def euclidean_distance(coord1, coord2):\n    dis = math.sqrt((coord1[0] - coord2[0]) ** 2 + (coord1[1] - coord2[1]) ** 2)\n    return dis\ndef count_clusters(graph):\n    return len(list(nx.connected_components(graph)))\ndef cusrandis(k  , maxdis):\n    windowsize = max(maxdis - k +1 , 1)\n    lpp = np.random.laplace(0,windowsize ** 0.1 )\n    lpp = int(k + (abs(lpp))%windowsize)\n    return lpp",
+        "detail": "gggg.helper",
+        "documentation": {}
+    },
+    {
+        "label": "count_clusters",
+        "kind": 2,
+        "importPath": "gggg.helper",
+        "description": "gggg.helper",
+        "peekOfCode": "def count_clusters(graph):\n    return len(list(nx.connected_components(graph)))\ndef cusrandis(k  , maxdis):\n    windowsize = max(maxdis - k +1 , 1)\n    lpp = np.random.laplace(0,windowsize ** 0.1 )\n    lpp = int(k + (abs(lpp))%windowsize)\n    return lpp\ndef graphify(graph , to_plot):\n    # pos = {i: coord for coord, i in cordmap.items()}\n    if not to_plot :",
+        "detail": "gggg.helper",
+        "documentation": {}
+    },
+    {
+        "label": "cusrandis",
+        "kind": 2,
+        "importPath": "gggg.helper",
+        "description": "gggg.helper",
+        "peekOfCode": "def cusrandis(k  , maxdis):\n    windowsize = max(maxdis - k +1 , 1)\n    lpp = np.random.laplace(0,windowsize ** 0.1 )\n    lpp = int(k + (abs(lpp))%windowsize)\n    return lpp\ndef graphify(graph , to_plot):\n    # pos = {i: coord for coord, i in cordmap.items()}\n    if not to_plot :\n        return\n    pos = nx.get_node_attributes(graph, \"pos\")",
+        "detail": "gggg.helper",
+        "documentation": {}
+    },
+    {
+        "label": "graphify",
+        "kind": 2,
+        "importPath": "gggg.helper",
+        "description": "gggg.helper",
+        "peekOfCode": "def graphify(graph , to_plot):\n    # pos = {i: coord for coord, i in cordmap.items()}\n    if not to_plot :\n        return\n    pos = nx.get_node_attributes(graph, \"pos\")\n    nx.draw(\n        graph,\n        pos,\n        with_labels=True,\n        font_weight=\"bold\",",
+        "detail": "gggg.helper",
+        "documentation": {}
+    },
+    {
+        "label": "KDNode",
+        "kind": 6,
+        "importPath": "gggg.kdtree",
+        "description": "gggg.kdtree",
+        "peekOfCode": "class KDNode:\n    def __init__(self, point, axis, left=None, right=None):\n        self.point = point\n        self.axis = axis\n        self.left = left\n        self.right = right\nclass KDTree:\n    def __init__(self):\n        self.root = None\n    def build(self, points, depth=0):",
+        "detail": "gggg.kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "KDTree",
+        "kind": 6,
+        "importPath": "gggg.kdtree",
+        "description": "gggg.kdtree",
+        "peekOfCode": "class KDTree:\n    def __init__(self):\n        self.root = None\n    def build(self, points, depth=0):\n        if not points:\n            return None\n        k = len(points[0])  # Dimensionality of the data\n        axis = depth % k\n        # Sort points by the current axis and choose the median as the pivot\n        points.sort(key=lambda x: x[axis])",
+        "detail": "gggg.kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "ith_nearest_neighbor",
+        "kind": 2,
+        "importPath": "gggg.kdtree",
+        "description": "gggg.kdtree",
+        "peekOfCode": "def ith_nearest_neighbor(tree, query_point, i):\n    \"\"\"Find the ith nearest neighbor of the given point using a set to track visited nodes.\"\"\"\n    if tree.root is None:\n        return None\n    # Priority queue to maintain i nearest neighbors\n    neighbors = []\n    # Set to track visited nodes\n    visited = set()\n    def _search(node):\n        if node is None or node in visited:",
+        "detail": "gggg.kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "fun",
+        "kind": 2,
+        "importPath": "gggg.l",
+        "description": "gggg.l",
+        "peekOfCode": "def fun(a):\n    return \"hello \" + a",
+        "detail": "gggg.l",
+        "documentation": {}
+    },
+    {
+        "label": "count_lines_in_ipynb",
+        "kind": 2,
+        "importPath": "gggg.line",
+        "description": "gggg.line",
+        "peekOfCode": "def count_lines_in_ipynb(filename):\n    with open(filename, \"r\", encoding=\"utf-8\") as f:\n        notebook = json.load(f)\n    total_lines = 0\n    for cell in notebook[\"cells\"]:\n        if cell[\"cell_type\"] == \"code\":\n            total_lines += sum(1 for line in cell[\"source\"] if line.strip() != \"\")\n    return total_lines\nfilename = \"/home/voy/space/cud/thes/as2.ipynb\"\nprint(count_lines_in_ipynb(filename))",
+        "detail": "gggg.line",
+        "documentation": {}
+    },
+    {
+        "label": "filename",
+        "kind": 5,
+        "importPath": "gggg.line",
+        "description": "gggg.line",
+        "peekOfCode": "filename = \"/home/voy/space/cud/thes/as2.ipynb\"\nprint(count_lines_in_ipynb(filename))",
+        "detail": "gggg.line",
+        "documentation": {}
+    },
+    {
+        "label": "find_closest_clusters_test",
+        "kind": 2,
+        "importPath": "gggg.prims",
+        "description": "gggg.prims",
+        "peekOfCode": "def find_closest_clusters_test(cluster_list, broken_mst):\n    cluster_connected = copy.deepcopy(broken_mst)\n    curr = cluster_list[0]\n    visited_id = set(curr[0])\n    no_of_clusters = len(cluster_list)\n    cluster_dict = {id : vals for }\n    for _ in range(no_of_clusters) : \n        for cluster in cluster_list:\n            if cluster[0] in visited_id:\n                continue",
+        "detail": "gggg.prims",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "cis",
+        "description": "cis",
+        "peekOfCode": "n = 10**10\ni = 2\ncnt = 0\nwhile i < n:\n    i = i**2\n    cnt += 1\nprint(cnt)",
+        "detail": "cis",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "cis",
+        "description": "cis",
+        "peekOfCode": "i = 2\ncnt = 0\nwhile i < n:\n    i = i**2\n    cnt += 1\nprint(cnt)",
+        "detail": "cis",
+        "documentation": {}
+    },
+    {
+        "label": "cnt",
+        "kind": 5,
+        "importPath": "cis",
+        "description": "cis",
+        "peekOfCode": "cnt = 0\nwhile i < n:\n    i = i**2\n    cnt += 1\nprint(cnt)",
+        "detail": "cis",
+        "documentation": {}
+    },
+    {
+        "label": "euclidean_distance",
+        "kind": 2,
+        "importPath": "helper",
+        "description": "helper",
+        "peekOfCode": "def euclidean_distance(coord1, coord2):\n    dis = math.sqrt((coord1[0] - coord2[0]) ** 2 + (coord1[1] - coord2[1]) ** 2)\n    return dis\ndef count_clusters(graph):\n    return len(list(nx.connected_components(graph)))\ndef cusrandis(k, maxdis):\n    windowsize = max(maxdis - k + 1, 1)\n    lpp = np.random.laplace(0, windowsize**0.1)\n    lpp = int(k + (abs(lpp)) % windowsize)\n    return lpp",
+        "detail": "helper",
+        "documentation": {}
+    },
+    {
+        "label": "count_clusters",
+        "kind": 2,
+        "importPath": "helper",
+        "description": "helper",
+        "peekOfCode": "def count_clusters(graph):\n    return len(list(nx.connected_components(graph)))\ndef cusrandis(k, maxdis):\n    windowsize = max(maxdis - k + 1, 1)\n    lpp = np.random.laplace(0, windowsize**0.1)\n    lpp = int(k + (abs(lpp)) % windowsize)\n    return lpp\n# def graphify(graph , to_plot):\n#     # pos = {i: coord for coord, i in cordmap.items()}\n#     if not to_plot :",
+        "detail": "helper",
+        "documentation": {}
+    },
+    {
+        "label": "cusrandis",
+        "kind": 2,
+        "importPath": "helper",
+        "description": "helper",
+        "peekOfCode": "def cusrandis(k, maxdis):\n    windowsize = max(maxdis - k + 1, 1)\n    lpp = np.random.laplace(0, windowsize**0.1)\n    lpp = int(k + (abs(lpp)) % windowsize)\n    return lpp\n# def graphify(graph , to_plot):\n#     # pos = {i: coord for coord, i in cordmap.items()}\n#     if not to_plot :\n#         return\n#     pos = nx.get_node_attributes(graph, \"pos\")",
+        "detail": "helper",
+        "documentation": {}
+    },
+    {
+        "label": "graphify",
+        "kind": 2,
+        "importPath": "helper",
+        "description": "helper",
+        "peekOfCode": "def graphify(graph, to_plot, bottom_text=\"\"):\n    if not to_plot:\n        return\n    pos = nx.get_node_attributes(graph, \"pos\")\n    # nx.draw(\n    #     graph,\n    #     pos,\n    #     # with_labels=True,\n    #     alpha=0.5,\n    #     with_labels=False,",
+        "detail": "helper",
+        "documentation": {}
+    },
+    {
+        "label": "KDNode",
+        "kind": 6,
+        "importPath": "kdtree",
+        "description": "kdtree",
+        "peekOfCode": "class KDNode:\n    def __init__(self, point, axis, left=None, right=None):\n        self.point = point\n        self.axis = axis\n        self.left = left\n        self.right = right\nclass KDTree:\n    def __init__(self):\n        self.root = None\n    def build(self, points, depth=0):",
+        "detail": "kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "KDTree",
+        "kind": 6,
+        "importPath": "kdtree",
+        "description": "kdtree",
+        "peekOfCode": "class KDTree:\n    def __init__(self):\n        self.root = None\n    def build(self, points, depth=0):\n        if not points:\n            return None\n        k = len(points[0])  # Dimensionality of the data\n        axis = depth % k\n        # Sort points by the current axis and choose the median as the pivot\n        points.sort(key=lambda x: x[axis])",
+        "detail": "kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "ith_nearest_neighbor",
+        "kind": 2,
+        "importPath": "kdtree",
+        "description": "kdtree",
+        "peekOfCode": "def ith_nearest_neighbor(tree, query_point, i):\n    \"\"\"Find the ith nearest neighbor of the given point using a set to track visited nodes.\"\"\"\n    if tree.root is None:\n        return None\n    # Priority queue to maintain i nearest neighbors\n    neighbors = []\n    # Set to track visited nodes\n    visited = set()\n    def _search(node):\n        if node is None or node in visited:",
+        "detail": "kdtree",
+        "documentation": {}
+    },
+    {
+        "label": "KDNode",
+        "kind": 6,
+        "importPath": "kdtreen",
+        "description": "kdtreen",
+        "peekOfCode": "class KDNode:\n    def __init__(self, point, axis, left=None, right=None):\n        self.point = point\n        self.axis = axis\n        self.left = left\n        self.right = right\nclass KDTree:\n    def __init__(self):\n        self.root = None\n    def build(self, points, depth=0):",
+        "detail": "kdtreen",
+        "documentation": {}
+    },
+    {
+        "label": "KDTree",
+        "kind": 6,
+        "importPath": "kdtreen",
+        "description": "kdtreen",
+        "peekOfCode": "class KDTree:\n    def __init__(self):\n        self.root = None\n    def build(self, points, depth=0):\n        if not points:\n            return None\n        k = len(points[0])  # Dimensionality of the data\n        axis = depth % k\n        # Sort points by the current axis and choose the median as the pivot\n        points.sort(key=lambda x: x[axis])",
+        "detail": "kdtreen",
+        "documentation": {}
+    },
+    {
+        "label": "i_neighbors",
+        "kind": 2,
+        "importPath": "kdtreen",
+        "description": "kdtreen",
+        "peekOfCode": "def i_neighbors(tree, query_point, i):\n    \"\"\"Find the ith nearest neighbor of the given point using a set to track visited nodes.\"\"\"\n    if tree.root is None:\n        return None\n    i += 1\n    # Priority queue to maintain i nearest neighbors\n    neighbors = []\n    # Set to track visited nodes\n    visited = set()\n    def _search(node):",
+        "detail": "kdtreen",
+        "documentation": {}
+    },
+    {
+        "label": "fun",
+        "kind": 2,
+        "importPath": "l",
+        "description": "l",
+        "peekOfCode": "def fun(a):\n    return \"hello \" + a",
+        "detail": "l",
+        "documentation": {}
+    },
+    {
+        "label": "count_lines_in_ipynb",
+        "kind": 2,
+        "importPath": "line",
+        "description": "line",
+        "peekOfCode": "def count_lines_in_ipynb(filename):\n    with open(filename, \"r\", encoding=\"utf-8\") as f:\n        notebook = json.load(f)\n    total_lines = 0\n    for cell in notebook[\"cells\"]:\n        if cell[\"cell_type\"] == \"code\":\n            total_lines += sum(1 for line in cell[\"source\"] if line.strip() != \"\")\n    return total_lines\nfilename = \"/home/voy/space/cud/thes/as2.ipynb\"\nprint(count_lines_in_ipynb(filename))",
+        "detail": "line",
+        "documentation": {}
+    },
+    {
+        "label": "filename",
+        "kind": 5,
+        "importPath": "line",
+        "description": "line",
+        "peekOfCode": "filename = \"/home/voy/space/cud/thes/as2.ipynb\"\nprint(count_lines_in_ipynb(filename))",
+        "detail": "line",
+        "documentation": {}
+    },
+    {
+        "label": "find_closest_clusters_test",
+        "kind": 2,
+        "importPath": "prims",
+        "description": "prims",
+        "peekOfCode": "def find_closest_clusters_test(cluster_list, broken_mst):\n    cluster_connected = copy.deepcopy(broken_mst)\n    curr = cluster_list[0]\n    visited_id = set(curr[0])\n    no_of_clusters = len(cluster_list)\n    cluster_dict = {id : vals for }\n    for _ in range(no_of_clusters) : \n        for cluster in cluster_list:\n            if cluster[0] in visited_id:\n                continue",
+        "detail": "prims",
+        "documentation": {}
+    }
+]
